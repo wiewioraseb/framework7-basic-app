@@ -1,0 +1,46 @@
+i.icon.icon-info {
+  width: 25px;
+  height: 25px;
+  background-image: url("resources/img/icons/Parking.svg");
+}
+
+i.icon.icon-agenda {
+  width: 25px;
+  height: 25px;
+  background-image: url("resources/img/icons/navgate.svg");
+}
+
+i.icon.icon-map {
+  width: 25px;
+  height: 25px;
+  background-image: url("resources/img/icons/settings.svg");
+}
+
+i.icon.icon-navigation {
+  width: 25px;
+  height: 25px;
+  background-image: url("resources/img/icons/reservations.svg");
+}
+
+i.icon.icon-contact {
+  width: 25px;
+  height: 25px;
+  background-image: url("resources/img/icons/contact.svg");
+}
+
+#gmap{
+  display: block;
+  width: 95%;
+  height: 350px;
+  margin: 0 auto;
+  -moz-box-shadow: 0px 5px 20px #ccc;
+  -webkit-box-shadow: 0px 5px 20px #ccc;
+  box-shadow: 0px 5px 20px #ccc;
+}
+
+
+
+
+
+
+

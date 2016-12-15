@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Framework7 test app</title>
+    <link rel="stylesheet" href="lib-css/framework7.ios.min.css">
+    <link rel="stylesheet" href="lib-css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="lib-css/my-app.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<div class="statusbar-overlay"></div>
+<div class="panel-overlay"></div>
+<div class="views">
+    <div class="view view-main">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="center sliding">Framework7 Test App</div>
+            </div>
+        </div>
+        <div class="pages navbar-through toolbar-through">
+            <div data-page="indexPage" class="page">
+                <div class="page-content">
+                    <div id="gmap"></div>
+                    <img src="http://fakeimg.pl/360x200/"/>
+                    <div class="list-block">
+                        <ul>
+                            <li>
+                                <a href="screens/agenda/agenda.html" class="item-link item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Test1</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="item-link item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title">Test2</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="toolbar">
+            <div class="toolbar-inner">
+                <a href="index.html" class="link"><i class="icon icon-info"></i></a>
+                <a href="screens/agenda/agenda.html" class="link"><i class="icon icon-agenda"></i></a>
+                <!--<a href="#" class="link"><i class="icon icon-map"></i></a>-->
+                <!--<a href="#" class="link"><i class="icon icon-navigation"></i></a>-->
+                <a href="screens/contact/contact.html" class="link"><i class="icon icon-contact"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="lib-js/framework7.min.js"></script>
+
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyArcRVXvOmtx01X8bWI2-BqJBy8908t_1E"></script>
+<script type="text/javascript" src="gmaps.min.js"></script>
+
+<script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="screens/agenda/agenda.js"></script>
+<script type="text/javascript" src="screens/contact/contact.js"></script>
+<script type="text/javascript" src="my-app.js"></script>
+</body>
+
+</html>
